@@ -1,4 +1,4 @@
-# msn
+# msn Clone with Nuxt.js
 
 ## Build Setup
 
