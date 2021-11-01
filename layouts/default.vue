@@ -30,7 +30,7 @@
                 <NuxtLink to="#" class="text-decoration-none">
                   <v-btn icon class="text-capitalize"> Sign in </v-btn>
                 </NuxtLink>
-                <Settings />
+                <Settings class="mr-n6"/>
               </v-col>
             </v-card>
           </v-card>
