@@ -1,15 +1,12 @@
 <template>
-  <v-row class="fill-height ma-0">
-    <v-col cols="12">
+  <v-row no-gutters >
+    <v-col cols="12" class="mb-n3">
       <img
-        align="center"
-        justify="center"
-        class="pa-3 ml-9"
+        class="mx-auto"
         height="200"
-        width="1370"
+        width="1560"
         src="https://via.placeholder.com/1920"
       />
     </v-col>
   </v-row>
 </template>
-

@@ -3,7 +3,7 @@
     <v-menu transition="scale-transition" origin="center center">
       <template #activator="{ on, attrs }">
         <v-icon class="mt-2 pl-3" v-bind="attrs" v-on="on"
-          >mdi-brightness-5</v-icon
+          >mdi-cog-outline</v-icon
         >
       </template>
       <v-card>

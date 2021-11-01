@@ -1,111 +1,117 @@
 <template>
-  <v-row>
+  <v-row no-gutters>
     <v-col cols="12">
       <v-chip-group multiple active-class="primary--text" class="mx-10">
-        <nuxt-link to="#" class="text-center text-decoration-none text--primary"
-          >CORONA VIRUS</nuxt-link
-        >
-        <span class="px-2"> | </span>
-
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none overline green--text"
+          >CORONAVIRUS</NuxtLink
         >
-          Dhaka/31'C <v-icon>mdi-pencil</v-icon></nuxt-link
-        >
-
-        <span class="px-2"> | </span>
-        <nuxt-link
+        <span class="px-2 pt-1"> | </span>
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
+        >
+          <v-icon size="20">mdi-waves</v-icon> Dhaka/31'C
+          <v-icon size="16">mdi-pencil</v-icon></NuxtLink
+        >
+        <span class="px-2 pt-1"> | </span>
+        <NuxtLink
+          to="#"
+          class="
+            text-center text-decoration-none
+            blue--text
+            text-capitalize
+            overline
+          "
         >
           Try MSN in Microsoft Edge
-        </nuxt-link>
-
-        <span class="px-2"> | </span>
-
-        <nuxt-link
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           AFRICA
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="asia"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           ASIA
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link to="#" class="text-center text-decoration-none text--primary"
-          >AUSTRALIA
-        </nuxt-link>
-        <span class="px-2"> | </span>
-
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
+          >AUSTRALIA
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
+
+        <NuxtLink
+          to="#"
+          class="text-center text-decoration-none text--primary overline"
         >
           EUROPE
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
-          LATIN AMERICA</nuxt-link
+          LATIN AMERICA</NuxtLink
         >
-        <span class="px-2"> | </span>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           MIDDLE EAST
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           NORTH AMERICA
-        </nuxt-link>
+        </NuxtLink>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
-          LIFE STYLE</nuxt-link
+          LIFE STYLE</NuxtLink
         >
-        <span class="px-2"> | </span>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           SPORTS
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           Server Status
-        </nuxt-link>
-        <span class="px-2"> | </span>
+        </NuxtLink>
+        <span class="px-2 pt-1"> | </span>
 
-        <nuxt-link
+        <NuxtLink
           to="#"
-          class="text-center text-decoration-none text--primary"
+          class="text-center text-decoration-none text--primary overline"
         >
           Server Status
-        </nuxt-link>
+        </NuxtLink>
       </v-chip-group>
     </v-col>
   </v-row>
